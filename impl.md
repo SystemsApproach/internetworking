@@ -107,19 +107,24 @@ basis is a table lookup, for example, looking up a VCI number in a VC
 table, an IP address in an L3 forwarding table, or an Ethernet address
 in an L2 forwarding table.
 
-The distinction between these two kinds of processing is important
-enough to give it a name: the *control plane* corresponds to the
-background processing required to "control" the network (e.g., running
-OSPF, RIP, or the BGP protocol described in the next chapter) and the
-*data plane* corresponds to the per-packet processing required to move
-packets from input port to output port.
-
-These two kinds of processing are easy to conflate when both run on
-the same CPU, as is the case in software switch depected in
-[Figure 1](#softswitch), but as we will see below, switch performance
-can be dramatically improved by focusing on the architecture of
-the data plane, and correspondingly, specifying a well-defined interface
-between the control and data planes.
+> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+> The distinction between these two kinds of processing is important
+> enough to give it a name: the *control plane* corresponds to the
+> background processing required to "control" the network (e.g., running
+> OSPF, RIP, or the BGP protocol described in the next chapter) and the
+> *data plane* corresponds to the per-packet processing required to move
+> packets from input port to output port. For historical reasons,
+> this distinction is called *control plane* and *user plane* in
+> cellular access networks, but the idea is the same, and in fact, the
+> 3GPP standard defines CUPS (Control/User Plane Separation) as an
+> architectural principle.
+> 
+> These two kinds of processing are easy to conflate when both run on
+> the same CPU, as is the case in software switch depected in
+> [Figure 1](#softswitch), but performance can be dramatically
+> improved by optimizing how the data plane is implemented, and
+> correspondingly, specifying a well-defined interface between the
+> control and data planes.
 
 {% include "../sidebars/throughput.md" %}
 
