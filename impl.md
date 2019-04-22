@@ -121,6 +121,8 @@ can be dramatically improved by focusing on the architecture of
 the data plane, and correspondingly, specifying a well-defined interface
 between the control and data planes.
 
+{% include "../sidebars/throughput.md" %}
+
 ## Hardware Switch
 
 Throughout much of the Internet's history, high-performance switches and
