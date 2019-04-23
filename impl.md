@@ -52,6 +52,8 @@ There are two potential bottlenecks with this approach, one or both
 of which limits the aggregate packet forwarding capacity of the
 software switch.
 
+{% include "../sidebars/throughput.md" %}
+
 The first problem is that performance is limited by the fact that all
 packets must pass into and out of main memory. Your mileage will
 vary based on how much you are willing to pay for hardware, but as
@@ -125,8 +127,6 @@ in an L2 forwarding table.
 > improved by optimizing how the data plane is implemented, and
 > correspondingly, specifying a well-defined interface between the
 > control and data planes.
-
-{% include "../sidebars/throughput.md" %}
 
 ## Hardware Switch
 
