@@ -109,7 +109,9 @@ basis is a table lookup, for example, looking up a VCI number in a VC
 table, an IP address in an L3 forwarding table, or an Ethernet address
 in an L2 forwarding table.
 
-> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+<!--- [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden] --->
+> **Key Takeaway**
+>
 > The distinction between these two kinds of processing is important
 > enough to give it a name: the *control plane* corresponds to the
 > background processing required to "control" the network (e.g., running

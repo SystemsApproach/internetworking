@@ -13,7 +13,9 @@ section, the switch makes this decision by consulting a forwarding
 table. The fundamental problem of routing is how switches and routers
 acquire the information in their forwarding tables.
 
-> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+<!--- [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden] --->
+> **Key Takeaway**
+>
 > We restate an important distinction, which is often neglected, between
 > *forwarding* and *routing*. Forwarding consists of taking a packet,
 > looking at its destination address, consulting a table, and sending the
@@ -769,7 +771,9 @@ scalability. Some solutions to both the specific problem (the amount of
 storage potentially required at each node) and the general problem
 (scalability) will be discussed in the next section.
 
-> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+<!--- [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden] --->
+> **Key Takeaway**
+>
 > The difference between the distance-vector and link-state algorithms
 > can be summarized as follows. In distance-vector, each node talks only
 > to its directly connected neighbors, but it tells them everything it
@@ -1048,7 +1052,9 @@ link speeds and latencies that prevailed in the ARPANET. Thus, static
 metrics are the norm. One common approach to setting metrics is to use
 a constant multiplied by (1/link_bandwidth).
 
-> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+<!--- [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden] --->
+> **Key Takeaway**
+>
 > Why do we still tell the story about a decades old algorithm that's
 > no longer is use? Because it perfectly illustrates two valuable lessons.
 > The first is that computer systems are often *designed iteratively,

@@ -621,7 +621,9 @@ table. Even if there were 100 hosts on each physical network, R2 would
 still only need those same four entries. This is a good first step
 (although by no means the last) in achieving scalability.
 
-> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+<!--- [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden] --->
+> **Key Takeaway**
+>
 > This illustrates one of the most important principles of building
 > scalable networks: To achieve scalability, you need to reduce the amount
 > of information that is stored in each node and that is exchanged between
@@ -1033,7 +1035,9 @@ R2 needs to forward a packet to network 2, it not only finds that the
 next hop is R1, but also finds the MAC address to place on the packet to
 send it to R1.
 
-> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+<!--- [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden] --->
+> **Key Takeaway**
+>
 > We have now seen the basic mechanisms that IP provides for dealing with
 > both heterogeneity and scale. On the issue of heterogeneity, IP begins
 > by defining a best-effort service model that makes minimal assumptions
@@ -1174,7 +1178,9 @@ pool. A host with a leased address clearly needs to renew the lease
 periodically if in fact it is still connected to the network and
 functioning correctly.
 
-> [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden]
+<!--- [!Note|style:flat|label:Key Takeaway|iconVisibility:hidden] --->
+> **Key Takeaway**
+>
 > DHCP illustrates an important aspect of scaling: the scaling of network
 > management. While discussions of scaling often focus on keeping the
 > state in network devices from growing too fast, it is important to pay
