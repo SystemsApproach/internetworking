@@ -77,11 +77,9 @@ would imply
 
 .. math::
 
-
    = 40 \times 10^6 \times 64 \times 8
 
 .. math::
-
 
    = 2048 \times 10^7
 
@@ -97,6 +95,8 @@ with an average data rate of about 1 Gbps on each port.\ [*]_
        maximum throughput rate that highly tuned software running on a
        high-end server could achieve, but they are indicative of
        limits one ultimately faces in pursuing this approach.
+
+.. include:: ../sidebars/throughput.rst
        
 One final consideration is important to understand when evaluating
 switch implementations. The non-trivial algorithms discussed in this

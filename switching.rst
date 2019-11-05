@@ -477,6 +477,8 @@ construction of *virtual private networks* (VPNs), a subject discussed
 in a later section. Even that application is now mostly supported using
 Internet-based technologies today.
 
+.. include:: ../sidebars/optical.rst
+
 Asynchronous Transfer Mode (ATM)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -591,6 +593,8 @@ As it turns out, 48 bytes was picked for the ATM cell payload as a
 compromise. There were good arguments for both larger and smaller cells,
 and 48 made almost no one happy—a power of two would certainly have been
 better for computers to process.
+
+.. include:: ../sidebars/atm.rst
 
 Source Routing
 --------------
