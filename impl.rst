@@ -329,6 +329,24 @@ switches. By centralizing this logic, the goal is to come up with a
 globally optimized solution. The published evidence from cloud
 providers that have embraced this approach confirms this advantage.
 
+.. admonition:: Key Takeaway
+
+   It is important to understand that SDN is an implementation
+   strategy. It does not magically make fundamental problems like
+   needing to compute a forwarding table go away. But instead of
+   burdening the switches with having to exchange messages with each
+   other as part of a distributed routing algorithm, the logically
+   centralized SDN controller is charged with collecting link and port
+   status information from the individual switches, constructing a
+   global view of the network graph, and making that graph available
+   to the control apps.  From the control application's perspective,
+   all the information it needs to compute the forwarding table is
+   locally available.  Keeping in mind that the SDN Controller is
+   logically centralized but physically replicated on multple
+   servers—for both scalable performance and high availability—it is
+   still a hotly contested question whether the centralized or
+   distributed approach is best.
+
 As much of an advantage as the cloud providers have been able to get out
 of SDN, its adoption in enterprises and Telcos has been much slower.
 This is partly about the ability of different markets to manage their
