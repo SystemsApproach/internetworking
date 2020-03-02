@@ -624,7 +624,7 @@ in :numref:`Table %s <tab-ipfwdtab2>`.
    +------------+-------------+
 
 Thus, for any network number that R2 encounters in a packet, it knows
-pwhat to do. Either that network is directly connected to R2, in which
+what to do. Either that network is directly connected to R2, in which
 case the packet can be delivered to its destination over that network,
 or the network is reachable via some next hop router that R2 can reach
 over a network to which it is connected. In either case, R2 will use
